@@ -1,0 +1,13 @@
+:root {
+  --primary-color: white;
+  --secondary-color: #3a3a3a;
+  --tertiary-color: #636363;
+  --quaternary-color: black;
+  --color-gradient: linear-gradient(
+    315deg,
+    var(--primary-color),
+    var(--secondary-color)
+  );
+  --primary-font-inter: "Inter", sans-serif;
+  --secondary-font-arial: Arial, Helvetica, sans-serif;
+}

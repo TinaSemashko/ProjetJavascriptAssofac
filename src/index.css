@@ -1,0 +1,25 @@
+html {
+  width: 100%;
+}
+
+body {
+  background-color: var(--quaternary-color);
+  color: white;
+}
+.logo {
+  width: 60px;
+}
+
+.main {
+  padding: 10%;
+}
+
+footer .text-center {
+  font-family: var(--font-quarrel);
+  font-size: 12px;
+}
+
+.navbar {
+  background: linear-gradient(315deg, gold 50%, rgb(0, 0, 0) 50%);
+  height: 6vh;
+}

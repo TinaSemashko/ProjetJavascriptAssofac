@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "gulp-file-include": "^2.3.0"
+  },
+  "devDependencies": {
+    "gulp-rigger": "^0.5.8"
+  }
+}
