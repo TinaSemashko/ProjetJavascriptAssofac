@@ -1,6 +1,6 @@
 :root {
-  --primary-color: white;
-  --secondary-color: #3a3a3a;
+  --primary-color: gold;
+  --secondary-color: black;
   --tertiary-color: #636363;
   --quaternary-color: black;
   --color-gradient: linear-gradient(
@@ -8,6 +8,46 @@
     var(--primary-color),
     var(--secondary-color)
   );
-  --primary-font-inter: "Inter", sans-serif;
-  --secondary-font-arial: Arial, Helvetica, sans-serif;
+  --font-satisfy: "Satisfy", cursive;
+  --font-pacifico: "Pacifico", cursive;
+}
+
+.logo {
+  width: 60px;
+}
+
+footer .text-center {
+  font-family: var(--font-satisfy);
+  font-size: 12px;
+}
+
+footer .line {
+  border-top: solid;
+  border-image-slice: 1;
+  border-image-source: linear-gradient(to right, gold, black);
+}
+
+footer .social-links {
+  padding-top: 6vh;
+}
+
+footer .social-links a i {
+  color: goldenrod;
+}
+
+.navbar {
+  background: linear-gradient(
+    315deg,
+    var(--primary-color) 10%,
+    var(--secondary-color) 80%
+  );
+  height: 9vh;
+  font-family: var(--font-satisfy);
+  font-size: 3vh;
+}
+
+.navbar .container-fluid .navbar-brand span {
+  color: var(--primary-color);
+  font-size: 4vh;
+  padding-left: 2vw;
 }

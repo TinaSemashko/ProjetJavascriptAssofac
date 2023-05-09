@@ -26,14 +26,137 @@
       crossorigin="anonymous"
     ></script>
 
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Satisfy&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Henny+Penny&family=Satisfy&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Henny+Penny&family=Limelight&family=Satisfy&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Henny+Penny&family=Limelight&family=Pacifico&family=Satisfy&display=swap"
+      rel="stylesheet"
+    />
+
     <link rel="stylesheet" href="src/index.css" />
     <link rel="stylesheet" href="src/root.css" />
     <script src="./src/index.js"></script>
   </head>
   <body>
+    <div class="testtest" id="testtest">testtest</div>
     <div w3-include-html="./includes/header.html"></div>
-    <div class="main"></div>
-
+    <div class="main">
+      <div id="carouselControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./images/second.jpg" class="d-block w-100" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="./images/third.jpg" class="d-block w-100" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="./images/H-AXwzlC.jpg" class="d-block w-100" alt="..." />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev panel"
+          type="button"
+          data-bs-target="#carouselControls"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next panel"
+          type="button"
+          data-bs-target="#carouselControls"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+    <div class="container-grid">
+      <div class="cell">
+        <a href="./pages/prod-precise.html" class="text-image">
+          <div>pierres précieuses</div>
+        </a>
+        <img
+          src="./images/diamond-gd3b2863f8_1280.jpg"
+          class="img-fluid"
+          alt="..."
+        />
+      </div>
+      <div class="promotion">
+        <div class="text-image">
+          <div class="first-line">fête des mères</div>
+          <div class="second-line">offre 2+1 gratuit</div>
+          <hr />
+          <div class="third-line">pour 3 articles dans votre panier</div>
+          <div class="third-line">le moins cher vous est offert</div>
+          <div class="third-line">+1 cadeau dans chaque commande</div>
+          <div class="third-line">+l ivrasion gratuite à partir de 35€</div>
+        </div>
+        <img
+          src="./images/pexels-george-dolgikh-1303081.jpg"
+          class="img-fluid"
+          alt="..."
+        />
+      </div>
+      <div class="cell">
+        <a href="./pages/prod-semi.html" class="text-image">
+          <div>pierres semi-précieuses</div>
+        </a>
+        <img
+          src="./images/gemstones-gef85745e9_1280.jpg"
+          class="img-fluid"
+          alt="..."
+        />
+      </div>
+      <div class="cell">
+        <a href="./pages/prod-orniment.html" class="text-image">
+          <div>pierres ornementales</div>
+        </a>
+        <img
+          src="./images/Rose Quartz Teardrop Tumbled Stones.png"
+          class="img-fluid"
+          alt="..."
+        />
+      </div>
+      <div class="cell">
+        <a href="./pages/prod-biju.html" class="text-image">
+          <div>bijoux fantaisie</div>
+        </a>
+        <img
+          src="./images/pexels-solodsha-8105118.jpg"
+          class="img-fluid"
+          alt="..."
+        />
+      </div>
+      <div class="cell">
+        <a href="./pages/prod-articles.html" class="text-image">
+          <div>articles avec des pierres</div>
+        </a>
+        <img
+          src="./images/amethyst-g877c6faad_1280.jpg"
+          class="img-fluid"
+          alt="..."
+        />
+      </div>
+    </div>
     <div w3-include-html="./includes/footer.html"></div>
   </body>
   <script>
