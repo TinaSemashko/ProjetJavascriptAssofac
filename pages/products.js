@@ -38,7 +38,7 @@ const GridCell = (array, container) => {
 
 //test
 const addToBasket = (prod) => {
-  alert("testt " + prod);
+  alert("le produit  " + prod + " ajouté au panier");
 };
 /////
 

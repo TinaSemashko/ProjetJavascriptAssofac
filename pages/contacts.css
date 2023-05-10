@@ -144,3 +144,20 @@ form [type="reset"]:focus {
 form select {
   text-transform: none;
 }
+
+.title {
+  text-align: center;
+  font-size: 6vh;
+  font-family: var(--font-limelight);
+}
+.adress {
+  text-align: left;
+  font-size: 4vh;
+  font-family: var(--font-limelight);
+  padding-left: 5%;
+}
+.carte {
+  width: 20vw;
+  height: 40vh;
+  padding-bottom: 5%;
+}

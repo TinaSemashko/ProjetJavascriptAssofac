@@ -1,3 +1,12 @@
 .container-shoppingcard {
   padding: 10%;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
+}
+
+.container-shoppingcard .cell {
+  border: solid black;
+  text-align: center;
 }

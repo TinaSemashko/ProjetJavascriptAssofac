@@ -54,7 +54,7 @@ body {
     var(--secondary-color) 12.51%,
     var(--primary-color) 90.97%
   );
-  font-family: "Henny Penny", cursive;
+  font-family: var(--font-henny);
 }
 
 .promotion .text-image .second-line {

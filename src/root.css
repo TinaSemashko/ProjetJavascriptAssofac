@@ -10,6 +10,8 @@
   );
   --font-satisfy: "Satisfy", cursive;
   --font-pacifico: "Pacifico", cursive;
+  --font-henny: "Henny Penny", cursive;
+  --font-limelight: "Limelight", cursive;
 }
 
 .logo {
