@@ -31,12 +31,6 @@ const GridCell = (array, container) => {
   });
 };
 
-//test
-const addToBasket = (prod) => {
-  alert("le produit  " + prod.name + " ajouté au panier");
-};
-/////
-
 const products = [
   {
     id: 1,
