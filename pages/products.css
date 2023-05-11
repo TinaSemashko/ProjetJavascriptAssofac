@@ -5,7 +5,8 @@ body {
 }
 
 .rainbow-animated {
-  padding-top: 5%;
+  padding-top: 15vh;
+  padding-left: 5vh;
   background: linear-gradient(
     to right,
     red,
@@ -78,7 +79,7 @@ body {
   z-index: 0;
 }
 
-button {
+.butt {
   padding: 0.7em 1.7em;
   font-size: 18px;
   border-radius: 0.5em;
@@ -90,10 +91,24 @@ button {
   color: var(--primary-color);
 }
 
-button:hover {
+.butt:hover {
   border: 1px solid white;
 }
 
-button:active {
+.butt:active {
   box-shadow: 4px 4px 12px #c5c5c5, -4px -4px 12px #ffffff;
+}
+
+@media (max-width: 560px) {
+  .container-prod {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    gap: 0;
+  }
+
+  .rainbow-animated {
+    font-size: 5vh;
+    /* margin-top: 15vh; */
+    margin-left: 10%;
+  }
 }

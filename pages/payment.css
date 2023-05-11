@@ -1,0 +1,21 @@
+.credit-card-div span {
+  padding-top: 10px;
+}
+.credit-card-div img {
+  padding-top: 20px;
+}
+.credit-card-div .small-font {
+  font-size: 9px;
+}
+.credit-card-div .pad-adjust {
+  padding-top: 10px;
+}
+.container {
+  padding-top: 15vh;
+  padding-bottom: 15vh;
+}
+h1 {
+  padding-top: 15vh;
+  font-family: var(--font-limelight);
+  padding-left: 16vw;
+}

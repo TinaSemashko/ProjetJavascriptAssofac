@@ -1,6 +1,6 @@
 .container-shoppingcard {
-  padding: 10%;
-
+  padding-left: 15vh;
+  padding-right: 15vh;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: auto;
@@ -9,4 +9,48 @@
 .container-shoppingcard .cell {
   border: solid black;
   text-align: center;
+  background-color: gold;
+}
+
+.data {
+  padding-bottom: 15vh;
+  padding-left: 15vh;
+  padding-right: 15vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
+}
+
+.data .cell {
+  border: solid black;
+  text-align: center;
+}
+
+h1 {
+  padding: 15vh;
+}
+
+.payment {
+  margin-bottom: 15vh;
+  font-size: 17px;
+  padding: 0.5em 2em;
+  border: transparent;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+  background: goldenrod;
+  color: var(--secondary-color);
+  border-radius: 4px;
+  width: 50%;
+}
+
+.payment:hover {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    var(--primary-color) 0%,
+    var(--secondary-color) 100%
+  );
+}
+
+.payment:active {
+  transform: translate(0em, 0.2em);
 }

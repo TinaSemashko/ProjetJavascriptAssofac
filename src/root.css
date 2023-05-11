@@ -43,13 +43,24 @@ footer .social-links a i {
     var(--primary-color) 10%,
     var(--secondary-color) 80%
   );
-  height: 9vh;
   font-family: var(--font-satisfy);
   font-size: 3vh;
+  margin-left: 1vw;
+  margin-right: 1vw;
 }
 
 .navbar .container-fluid .navbar-brand span {
   color: var(--primary-color);
   font-size: 4vh;
   padding-left: 2vw;
+}
+
+@media (max-width: 990px) {
+  .navbar .container-fluid .collapse .navbar-nav .nav-item .nav-link {
+    color: var(--primary-color);
+  }
+  .navbar {
+    margin-left: 0;
+    margin-right: 0;
+  }
 }
