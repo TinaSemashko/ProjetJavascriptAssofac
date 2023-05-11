@@ -1,8 +1,6 @@
 :root {
   --primary-color: gold;
   --secondary-color: black;
-  --tertiary-color: #636363;
-  --quaternary-color: black;
   --color-gradient: linear-gradient(
     315deg,
     var(--primary-color),

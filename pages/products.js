@@ -402,6 +402,7 @@ function getBasket() {
 }
 
 function addBasket(product) {
+  alert("le produit  " + product.name + " ajouté au panier");
   let basket = getBasket();
 
   let foundProduct = "";

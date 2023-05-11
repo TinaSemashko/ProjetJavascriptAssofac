@@ -31,7 +31,6 @@ h1 {
 }
 
 .payment {
-  margin-bottom: 15vh;
   font-size: 17px;
   padding: 0.5em 2em;
   border: transparent;
@@ -53,4 +52,21 @@ h1 {
 
 .payment:active {
   transform: translate(0em, 0.2em);
+}
+
+.butt-payment {
+  margin-bottom: 15vh;
+  margin-left: 15vh;
+}
+
+@media (max-width: 560px) {
+  .data .cell {
+    font-size: 8px;
+  }
+  .container-shoppingcard .cell {
+    font-size: 10px;
+  }
+  .payment {
+    font-size: 9px;
+  }
 }

@@ -152,4 +152,8 @@ body {
     grid-row: 1;
     grid-column: 1;
   }
+
+  .promotion .text-image .third-line {
+    padding-top: 1vh;
+  }
 }
