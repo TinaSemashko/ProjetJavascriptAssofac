@@ -161,3 +161,9 @@ form select {
   height: 40vh;
   padding-bottom: 5%;
 }
+@media (max-width: 560px) {
+  .carte {
+    width: 40vw;
+    height: 20vh;
+  }
+}
