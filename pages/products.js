@@ -140,14 +140,14 @@ const products = [
   {
     id: 16,
     name: "ArtA10",
-    image: "../images/pexels-the-glorious-studio-15204302.jpg",
+    image: "../images/kisspng-earring-jewellery-tiffany-co-bracelet.png",
     price: 19,
     type: "articles",
   },
   {
     id: 17,
     name: "ArtA11",
-    image: "../images/pexels2876036.jpg",
+    image: "../images/kisspng-boucheron-earring-jewellery.png",
     price: 20,
     type: "articles",
   },
@@ -161,7 +161,7 @@ const products = [
   {
     id: 19,
     name: "ArtB1",
-    image: "../images/jewellery-gb278554cc_1280.jpg",
+    image: "../images/transparent-diamond-ring1.png",
     price: 30,
     type: "biju",
   },
@@ -182,7 +182,7 @@ const products = [
   {
     id: 22,
     name: "ArtB4",
-    image: "../images/pexels-hatice-genç-14856437.jpg",
+    image: "../images/pexels2876036.jpg",
     price: 33,
     type: "biju",
   },
@@ -353,6 +353,56 @@ const products = [
     image: "../images/amethyst-g1d3358204_1280.jpg",
     price: 60,
     type: "semi",
+  },
+  {
+    id: 47,
+    name: "ArtS12",
+    image: "../images/kisspng-gemstone-sapphire-ruby.png",
+    price: 60,
+    type: "semi",
+  },
+
+  {
+    id: 48,
+    name: "Vente en gros",
+    image: "../images/jewellery-angel.png",
+    price: 1,
+    type: "precise",
+  },
+  {
+    id: 49,
+    name: "Émeraudes en gros",
+    image: "../images/kisspng-emerald.png",
+    price: 1,
+    type: "precise",
+  },
+  {
+    id: 50,
+    name: "ArtB9",
+    image: "../images/kisspng-emerald-earring-graff.png",
+    price: 36,
+    type: "biju",
+  },
+  {
+    id: 51,
+    name: "ArtB10",
+    image: "../images/kisspng-engagement-ring.png",
+    price: 37,
+    type: "biju",
+  },
+  {
+    id: 52,
+    name: "ArtB11",
+    image: "../images/kisspng-love-hearts-crystal-red-quartz.png",
+    price: 39,
+    type: "biju",
+  },
+  {
+    id: 53,
+    name: "ArtB12",
+    image: "../images/kisspng-pearl-charm.png",
+    price: 39,
+    type: "biju",
   },
 ];
 

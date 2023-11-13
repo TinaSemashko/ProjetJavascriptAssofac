@@ -59,46 +59,72 @@
 
     <div class="contact">
       <h1>contacts</h1>
-       <div class="row pt-5">
-        <div class="col-md-8 title">
-      Envoyez-nous un email 
-    </div>
+      <div class="row pt-5">
+        <div class="col-md-8 title">Envoyez-nous un email</div>
       </div>
-      <div class="row pt-5">        
+      <div class="row pt-5">
         <div class="col-md-8">
-          <form  action="https://formspree.io/f/mvoljqpq" method="POST" class="border p-3 rounded m-5 form-contact">
-            <div class="mb-3">  
-              <label> Votre email:</label> 
-              <input class="form-control" type="email" name="_replyto" id="email-address" placeholder="email@domain.tld" required="" autofocus = "">
+          <form
+            action="https://formspree.io/f/mvoljqpq"
+            method="POST"
+            class="border p-3 rounded m-5 form-contact"
+          >
+            <div class="mb-3">
+              <label> Votre email:</label>
+              <input
+                class="form-control"
+                type="email"
+                name="_replyto"
+                id="email-address"
+                placeholder="email@domain.tld"
+                required=""
+                autofocus=""
+              />
             </div>
-             <div class="mb-3">
+            <div class="mb-3">
               <label> Votre message: </label>
               <textarea name="message"></textarea>
-              </div>
-              <!-- your other form fields go here -->
-              <button type="submit" class="btn contact-btn">Soumettre</button>
+            </div>
+            <!-- your other form fields go here -->
+            <button type="submit" class="btn contact-btn">Soumettre</button>
           </form>
-          <div class = "adress">
-            Siège : 20-22 rue gambetta, Nanterre 92000
+          <div class="adress">Siège : 20-22 rue gambetta, Nanterre 92000</div>
+        </div>
+        <div class="col-4 mt-5 content-container container">
+          <div class="content">
+            <a href="mailto:tina.semashko@gmail.com" class="email-link">
+              <img
+                class="img-fluid rounded logo"
+                src="/icons/email.png"
+                alt="email"
+              />
+              <h3>diamond@dm.com</h3>
+            </a>
+            <a href="#" class="email-link">
+              <img
+                class="img-fluid rounded logo"
+                src="/icons/telegram.png"
+                alt="telegram"
+              />
+              <h3>@diamond</h3>
+            </a>
+            <a href="https://www.linkedin.com/" class="email-link">
+              <img
+                class="img-fluid rounded logo"
+                src="/icons/in.png"
+                alt="linkedin"
+              />
+              <h3>@diamond</h3>
+            </a>
+            <img
+              class="img-fluid rounded carte"
+              src="../images/Carte1.PNG"
+              alt="carte"
+            />
           </div>
         </div>
-        <div class="col-4 mt-5 content-container container">   
-          <div class="content">
-              <a href="mailto:tina.semashko@gmail.com" class="email-link">
-              <img class = "img-fluid rounded logo" src ="/icons/email.png" alt="email" />
-              <h3>diamond@dm.com</h3>
-                </a>
-            <a href="#" class="email-link" >
-             <img class = "img-fluid rounded logo" src ="/icons/telegram.png" alt="telegram" />
-             <h3>@diamond</h3>  
-              </a>
-            <a href="https://www.linkedin.com/" class="email-link">
-              <img class = "img-fluid rounded logo" src ="/icons/in.png" alt="linkedin" /><h3>@diamond</h3> 
-            </a>
-              <img class = "img-fluid rounded carte" src ="../images/Carte1.PNG" alt="carte" />       
-        </div>
       </div>
- </div>
+    </div>
 
     <div w3-include-html="../includes/footer.html"></div>
   </body>
